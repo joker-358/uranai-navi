@@ -68,6 +68,21 @@ footer{border-top:1px solid #e5e0ec;padding:1.4rem 1.2rem 1rem;text-align:center
 .step-label{flex:0 0 auto;background:#7a5cab;color:#fff;border-radius:999px;padding:.15rem .7rem;font-size:.78rem;font-weight:700;margin-top:.2rem}
 .arrow{text-align:center;color:#b08d2f;font-weight:700;margin:.3rem 0}
 </style>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2613896492442640');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2613896492442640&ev=PageView&noscript=1"></noscript>
+<!-- End Meta Pixel Code -->
 </head>
 <body>
 <div class="pr">このページは広告（アフィリエイトプログラム）を含みます</div>
@@ -108,7 +123,7 @@ footer{border-top:1px solid #e5e0ec;padding:1.4rem 1.2rem 1rem;text-align:center
 <li>鑑定料は1分165円（税込）から</li>
 </ul>
 <div>
-<img src="https://www.rentracks.jp/adx/p.gifx?idx=0.35192.391677.2440.3721&dna=57387" border="0" height="1" width="1"><a class="btn light" href="https://www.rentracks.jp/adx/r.html?idx=0.35192.391677.2440.3721&dna=57387" rel="noopener" target="_blank">3,000円分のポイントを受け取る（無料）</a>
+<img src="https://www.rentracks.jp/adx/p.gifx?idx=0.35192.391677.2440.3721&dna=57387" border="0" height="1" width="1"><a class="btn light" data-cta="fv" href="https://www.rentracks.jp/adx/r.html?idx=0.35192.391677.2440.3721&dna=57387" rel="noopener" target="_blank">3,000円分のポイントを受け取る（無料）</a>
 <p class="small" style="color:#cdbcf0">公式サイトの登録ページへ進みます。登録は無料、月額もかかりません。</p>
 </div>
 </header>
@@ -217,7 +232,7 @@ footer{border-top:1px solid #e5e0ec;padding:1.4rem 1.2rem 1rem;text-align:center
 </section>
 <div class="cta-box">
 <p class="cta-lead">まずは無料登録で、3,000円分のポイントから</p>
-<img src="https://www.rentracks.jp/adx/p.gifx?idx=0.35192.391677.2440.3721&dna=57387" border="0" height="1" width="1"><a class="btn" href="https://www.rentracks.jp/adx/r.html?idx=0.35192.391677.2440.3721&dna=57387" rel="noopener" target="_blank">無料登録して、3,000円分で相談してみる</a>
+<img src="https://www.rentracks.jp/adx/p.gifx?idx=0.35192.391677.2440.3721&dna=57387" border="0" height="1" width="1"><a class="btn" data-cta="middle" href="https://www.rentracks.jp/adx/r.html?idx=0.35192.391677.2440.3721&dna=57387" rel="noopener" target="_blank">無料登録して、3,000円分で相談してみる</a>
 <p class="cta-sub">公式サイトの登録ページへ進みます（登録は無料です）</p>
 </div>
 <section>
@@ -293,13 +308,20 @@ footer{border-top:1px solid #e5e0ec;padding:1.4rem 1.2rem 1rem;text-align:center
 <div class="cta-box">
 <p class="cta-lead">今夜すぐに電話しなくても、大丈夫です</p>
 <p style="margin:.2rem 0 .4rem">登録だけ済ませておけば、また眠れない夜が来たとき、すぐに話せる場所があります。登録は無料、月額もかかりません。</p>
-<img src="https://www.rentracks.jp/adx/p.gifx?idx=0.35192.391677.2440.3721&dna=57387" border="0" height="1" width="1"><a class="btn" href="https://www.rentracks.jp/adx/r.html?idx=0.35192.391677.2440.3721&dna=57387" rel="noopener" target="_blank">無料で3,000円分を受け取る</a>
+<img src="https://www.rentracks.jp/adx/p.gifx?idx=0.35192.391677.2440.3721&dna=57387" border="0" height="1" width="1"><a class="btn" data-cta="final" href="https://www.rentracks.jp/adx/r.html?idx=0.35192.391677.2440.3721&dna=57387" rel="noopener" target="_blank">無料で3,000円分を受け取る</a>
 <p class="cta-sub">公式サイトの登録ページへ進みます（登録は無料です）</p>
 </div>
 </main>
 <footer>
 <p>運営：電話占いナビ<br>本ページはアフィリエイトプログラムによる広告を含みます。</p>
 </footer>
-<div class="sticky"><a href="https://www.rentracks.jp/adx/r.html?idx=0.35192.391677.2440.3721&dna=57387" rel="noopener" target="_blank">無料で3,000円分を受け取る</a></div>
+<div class="sticky"><a data-cta="sticky" href="https://www.rentracks.jp/adx/r.html?idx=0.35192.391677.2440.3721&dna=57387" rel="noopener" target="_blank">無料で3,000円分を受け取る</a></div>
+<script>
+document.querySelectorAll('a[data-cta]').forEach(function(a){
+  a.addEventListener('click',function(){
+    if(window.fbq){fbq('trackCustom','AffiliateClick',{position:a.getAttribute('data-cta')});}
+  });
+});
+</script>
 </body>
 </html>
