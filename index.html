@@ -9,12 +9,12 @@
 *{box-sizing:border-box}
 body{font-family:-apple-system,'Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif;margin:0;background:#faf8fc;color:#2b2430;line-height:1.75;padding-bottom:4.6rem}
 .pr{background:#efeaf4;color:#6b5b7d;font-size:.75rem;text-align:center;padding:.35rem 1rem}
-header{background:linear-gradient(180deg,#241a45 0%,#3a2a68 70%,#4a3785 100%);color:#fff;text-align:center;padding:2rem 1.2rem 1.6rem}
-.site-name{font-size:.8rem;letter-spacing:.25em;color:#cdbcf0;margin:0 0 .9rem}
-h1{font-size:1.5rem;line-height:1.55;margin:0 auto .8rem;max-width:34rem}
-.lead{color:#e6def7;font-size:.95rem;margin:0 auto;max-width:34rem}
-.hero-art{margin:1.2rem auto .4rem;max-width:22rem}
-.badges{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;margin:1rem auto .2rem;max-width:34rem;padding:0}
+header{background:linear-gradient(180deg,#241a45 0%,#3a2a68 70%,#4a3785 100%);color:#fff;text-align:center;padding:1.4rem 1.2rem 1.5rem}
+.site-name{font-size:.8rem;letter-spacing:.25em;color:#cdbcf0;margin:0 0 .7rem}
+.site-name svg{vertical-align:-3px;margin-right:.35rem}
+h1{font-size:1.45rem;line-height:1.5;margin:0 auto .7rem;max-width:34rem}
+.lead{color:#e6def7;font-size:.93rem;margin:0 auto;max-width:34rem}
+.badges{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;margin:.9rem auto .4rem;max-width:34rem;padding:0}
 .badges li{list-style:none;background:rgba(255,255,255,.12);border:1px solid #a68fd6;color:#fff;font-weight:700;font-size:.82rem;border-radius:999px;padding:.35rem .8rem}
 main{max-width:40rem;margin:0 auto;padding:0 1.2rem 1rem}
 .cta-box{background:#fdf3ec;border:1.5px solid #f0c39b;border-radius:14px;text-align:center;padding:1.3rem 1rem;margin:1.6rem 0}
@@ -22,23 +22,13 @@ main{max-width:40rem;margin:0 auto;padding:0 1.2rem 1rem}
 .cta-box .cta-sub{font-size:.85rem;color:#7a5c48;margin:.5rem 0 0}
 a.btn{display:inline-block;background:#e07840;color:#fff;font-weight:700;text-decoration:none;padding:.95rem 2rem;border-radius:999px;font-size:1.05rem;margin-top:.6rem;box-shadow:0 3px 10px rgba(224,120,64,.4)}
 a.btn.light{box-shadow:0 3px 10px rgba(0,0,0,.35)}
-section{margin:2.4rem 0}
+section{margin:2.2rem 0}
 h2.sec{font-size:1.15rem;border-left:4px solid #7a5cab;padding-left:.6rem;margin:0 0 .9rem}
 p{margin:.6rem 0}
 table.info{width:100%;border-collapse:collapse;background:#fff;border:1px solid #e3d9f2;border-radius:14px;overflow:hidden;font-size:.93rem}
 table.info th{background:#f3edfa;color:#5d4390;text-align:left;padding:.6rem .9rem;width:34%;border-top:1px solid #e7ddf5;font-weight:700;vertical-align:top}
 table.info td{padding:.6rem .9rem;border-top:1px solid #e7ddf5}
 table.info tr:first-child th,table.info tr:first-child td{border-top:none}
-.worries{list-style:none;margin:0;padding:0;background:#fff;border:1px solid #e3d9f2;border-radius:14px;padding:.6rem 1.2rem;box-shadow:0 2px 10px rgba(93,67,144,.06)}
-.worries li{padding:.6rem 0 .6rem 1.6rem;position:relative;border-top:1px dashed #e7ddf5}
-.worries li:first-child{border-top:none}
-.worries li::before{content:"\2713";position:absolute;left:.2rem;color:#7a5cab;font-weight:700}
-.cards{display:grid;gap:.8rem}
-.card{background:#fff;border:1px solid #e3d9f2;border-radius:14px;padding:1rem 1.2rem}
-.card h3{margin:.1rem 0 .4rem;font-size:1rem;color:#5d4390}
-.card p{margin:0;font-size:.93rem}
-.tagrow{display:flex;flex-wrap:wrap;gap:.45rem;margin:.8rem 0 0;padding:0}
-.tagrow li{list-style:none;background:#f3edfa;color:#5d4390;font-size:.8rem;border-radius:999px;padding:.25rem .7rem}
 .benefitbox{background:#fff;border:1px solid #e3d9f2;border-radius:14px;padding:1.2rem;box-shadow:0 2px 10px rgba(93,67,144,.06)}
 .benefitbox h3{margin:.2rem 0 .5rem;font-size:1.02rem;color:#5d4390}
 .cond{background:#faf6ef;border:1px dashed #d9b98c;border-radius:10px;padding:.8rem 1rem;font-size:.88rem;margin-top:.8rem}
@@ -61,9 +51,9 @@ footer{border-top:1px solid #e5e0ec;padding:1.4rem 1.2rem 1rem;text-align:center
 .sticky{position:fixed;left:0;right:0;bottom:0;background:rgba(255,255,255,.96);border-top:1px solid #e3d9f2;padding:.55rem 1rem calc(.55rem + env(safe-area-inset-bottom));text-align:center;z-index:10}
 .sticky a{display:block;max-width:34rem;margin:0 auto;background:#e07840;color:#fff;font-weight:700;text-decoration:none;padding:.8rem 1rem;border-radius:999px;font-size:1rem}
 .small{font-size:.85rem;color:#6a5c80}
-.promise{background:#fff8ec;border:1px solid #e8d9b8;border-radius:14px;padding:1rem 1.2rem;margin:1.6rem 0 0}
-.promise h2{font-size:1rem;margin:0 0 .4rem;color:#7a5b12}
-.promise p{margin:0;font-size:.93rem}
+.promise{background:#fff8ec;border:1px solid #e8d9b8;border-radius:14px;padding:.9rem 1.2rem;margin:1.4rem 0 0}
+.promise h2{font-size:1rem;margin:0 0 .3rem;color:#7a5b12}
+.promise p{margin:0;font-size:.92rem}
 .step-row{display:flex;gap:.7rem;align-items:flex-start}
 .step-label{flex:0 0 auto;background:#7a5cab;color:#fff;border-radius:999px;padding:.15rem .7rem;font-size:.78rem;font-weight:700;margin-top:.2rem}
 .arrow{text-align:center;color:#b08d2f;font-weight:700;margin:.3rem 0}
@@ -96,36 +86,9 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 <body>
 <div class="pr">このページは広告（アフィリエイトプログラム）を含みます</div>
 <header>
-<p class="site-name">電話占いナビ</p>
+<p class="site-name"><svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><defs><mask id="cs"><rect width="24" height="24" fill="white"/><circle cx="15" cy="9" r="8" fill="black"/></mask></defs><circle cx="11" cy="12" r="9" fill="#f5d67b" mask="url(#cs)"/></svg>電話占いナビ</p>
 <h1>眠れない夜に、<br>彼の気持ちが気になってしまう<br>あなたへ</h1>
 <p class="lead">誰にも言えない恋愛の悩みを、電話一本で相談できるサービス『電話占い「絆」』のご案内です。</p>
-<div class="hero-art">
-<svg viewBox="0 0 320 170" width="100%" role="img" aria-label="月夜のイラスト">
-<defs>
-<radialGradient id="sky" cx="50%" cy="30%" r="90%">
-<stop offset="0%" stop-color="#4a3785"/>
-<stop offset="100%" stop-color="#241a45"/>
-</radialGradient>
-<mask id="crescent">
-<rect width="320" height="170" fill="white"/>
-<circle cx="238" cy="52" r="30" fill="black"/>
-</mask>
-</defs>
-<rect width="320" height="170" rx="14" fill="url(#sky)"/>
-<g fill="#fff">
-<circle cx="40" cy="30" r="1.8" opacity=".9"/><circle cx="90" cy="60" r="1.3" opacity=".6"/>
-<circle cx="140" cy="25" r="1.6" opacity=".8"/><circle cx="285" cy="110" r="1.4" opacity=".6"/>
-<circle cx="60" cy="105" r="1.2" opacity=".5"/><circle cx="180" cy="45" r="1.2" opacity=".7"/>
-<circle cx="255" cy="140" r="1.6" opacity=".7"/><circle cx="110" cy="130" r="1.2" opacity=".5"/>
-</g>
-<circle cx="218" cy="62" r="30" fill="#f5d67b" mask="url(#crescent)"/>
-<g transform="translate(132,88)">
-<circle cx="28" cy="28" r="27" fill="#e07840"/>
-<path d="M20 18c-1 0-2 1-2 2 0 10 8 18 18 18 1 0 2-1 2-2v-4c0-1-.6-1.9-1.5-2.3l-4.7-1.9c-.9-.4-2-.1-2.6.7l-1.2 1.5c-2.9-1.5-5.2-3.8-6.7-6.7l1.5-1.2c.8-.6 1.1-1.7.7-2.6l-1.9-4.7C21.9 18.6 21 18 20 18z" fill="#fff"/>
-</g>
-<text x="160" y="158" text-anchor="middle" fill="#cdbcf0" font-size="11">24時間365日、自宅から電話で相談できます</text>
-</svg>
-</div>
 <ul class="badges">
 <li>新規登録で3,000円分ポイント</li>
 <li>登録料・月額・通話料は無料</li>
@@ -141,50 +104,6 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 <h2>このページの約束</h2>
 <p>料金・特典の条件・注意点を、登録前にすべてお伝えします。わかりにくい条件も省略しません。</p>
 </div>
-<section>
-<h2 class="sec">電話占い「絆」の基本情報</h2>
-<table class="info">
-<tr><th>対応時間</th><td>24時間365日（待機中の占い師にいつでも相談できます）</td></tr>
-<tr><th>鑑定料</th><td>1分 165円（税込）〜330円（税込）※占い師ごとに設定</td></tr>
-<tr><th>通話料</th><td>無料（センターからの折り返し電話で鑑定します）</td></tr>
-<tr><th>登録料・月額</th><td>無料（登録しているだけで料金はかかりません）</td></tr>
-<tr><th>新規登録特典</th><td>3,000円分のポイントプレゼント</td></tr>
-<tr><th>お試し特典</th><td>初めて鑑定する先生は「10分無料」割引の対象（条件は特典の章で説明します）</td></tr>
-<tr><th>支払い方法</th><td>銀行振込・クレジットカード・コンビニ払い・キャリア決済・Amazon Pay・電子マネーなど（後払い／前払いが選べます）</td></tr>
-<tr><th>運営会社</th><td>ビットアップ株式会社</td></tr>
-</table>
-</section>
-<section>
-<h2 class="sec">こんな悩みを、一人で抱えていませんか</h2>
-<ul class="worries">
-<li>夜になると彼のことが頭から離れず、なかなか眠れない</li>
-<li>LINEの返信が来ない理由を、つい一人で考え続けてしまう</li>
-<li>片思い・復縁・相手の本音など、友達には言いにくい悩みがある</li>
-<li>この関係を続けるべきか、誰かに聞いてほしいと思っている</li>
-</ul>
-<p>悩みを言葉にできずにいると、不安は大きくなる一方です。そんなときに「今すぐ、声に出して話せる相手がいる」こと。それだけで、気持ちの整理がつきやすくなります。</p>
-</section>
-<section>
-<h2 class="sec">解決策は「電話占い」という選択肢</h2>
-<div class="cards">
-<div class="card">
-<h3>お店に行かなくていい</h3>
-<p>自宅など、好きな場所から電話で相談できます。顔を合わせないからこそ、普段は言いにくい本音も話しやすいのが電話占いの特徴です。</p>
-</div>
-<div class="card">
-<h3>夜中でも相談できる</h3>
-<p>24時間365日対応。眠れない夜や、気持ちが揺れたタイミングで、待機中の占い師を選んで相談できます。予約も可能です。</p>
-</div>
-<div class="card">
-<h3>登録だけ先に済ませられる</h3>
-<p>会員登録は無料で、登録しただけで料金はかかりません。「話したい」と思ったときに、すぐ始められます。</p>
-</div>
-</div>
-<p style="margin-top:1rem">相談できる内容の例：</p>
-<ul class="tagrow">
-<li>片思い</li><li>復縁</li><li>相手の気持ち</li><li>結婚</li><li>出会い</li><li>不倫</li><li>仕事・転職</li><li>人間関係</li><li>家族のこと</li>
-</ul>
-</section>
 <section>
 <h2 class="sec">特典と、その条件</h2>
 <div class="benefitbox">
@@ -231,12 +150,6 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 <div class="example" style="margin-top:1rem">
 <p style="margin:.2rem 0"><strong>計算例：</strong>1分165円の先生に20分相談した場合、鑑定料は合計3,300円。そのうち3,000円分は登録特典のポイントでまかなえるので、差額は<strong>300円</strong>です。</p>
 </div>
-<div class="example" style="margin-top:.8rem">
-<p style="margin:.2rem 0"><strong>2回分のモデルケース：</strong></p>
-<p style="margin:.2rem 0">1回目：1分165円（税込）の先生と18分 → 2,970円 → 3,000円分のポイント内でおさまり、実費は0円</p>
-<p style="margin:.2rem 0">2回目：別の先生（1分231円・税込）と20分 → 4,620円 − 10分無料分2,310円 → お支払いは2,310円</p>
-<p style="margin:.2rem 0">→ 2人の先生と話して、実費は<strong>約2,310円</strong>という計算になります。</p>
-</div>
 <p>通話料は無料、料金は1分単位です。予算が心配な方は、ポイントを先に購入する「前払いコース」を選ぶと、ポイントが無くなった時点で通話が自動で終了するので、使いすぎを防げます。鑑定の長さは自分で決められ、好きなタイミングで電話を切っても大丈夫です。</p>
 </section>
 <div class="cta-box">
@@ -249,27 +162,8 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 <ol class="steps">
 <li><strong>無料会員登録</strong> — 公式サイトのフォームから登録（無料）。完了すると、ID・パスワードがメールで届きます</li>
 <li><strong>占い師を選ぶ</strong> — プロフィールで占術・得意な相談・1分料金を確認して、気になる先生を選びます</li>
-<li><strong>「今すぐ相談する」を押す</strong> — センターから折り返しの電話がかかってきます（通話料は無料）。待機していない先生は予約もできます</li>
-<li><strong>電話で相談</strong> — 初回は登録特典の3,000円分のポイントから利用できます。鑑定明細はメールとマイページで確認できます</li>
+<li><strong>電話で相談</strong> — 「今すぐ相談する」を押すと、センターから折り返しの電話がかかってきます（通話料は無料）。初回は登録特典の3,000円分のポイントから利用できます。待機していない先生は予約もできます</li>
 </ol>
-</section>
-<section>
-<h2 class="sec">占い師の選び方</h2>
-<div class="cards">
-<div class="card">
-<h3>悩みのジャンルで選ぶ</h3>
-<p>恋愛・仕事・人間関係など、先生ごとに得意な相談内容がプロフィールに書かれています。自分の悩みに合った先生から探すのが近道です。</p>
-</div>
-<div class="card">
-<h3>占術で選ぶ</h3>
-<p>霊感・霊視、タロット、四柱推命、九星気学など、占術の種類もさまざまです。気になる占術から選ぶ方法もあります。</p>
-</div>
-<div class="card">
-<h3>料金で選ぶ</h3>
-<p>1分165円（税込）から選べます。まずは料金が手頃な先生で試して、相性を確かめるのも一つの方法です。</p>
-</div>
-</div>
-<p class="small">※どの先生が良いか迷ったときは、公式サイトの受付に相談内容を伝えると、合う先生を紹介してもらえます。</p>
 </section>
 <section>
 <h2 class="sec">よくある質問</h2>
@@ -279,28 +173,26 @@ y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
 </details>
 <details>
 <summary>通話料はかかりますか？</summary>
-<p>かかりません。鑑定は、センターからあなたの電話へ折り返しかかってくる仕組みで、通話料は無料です。</p>
+<p>かかりません。鑑定は、センターからあなたの電話へ折り返しかかってくる仕組みで、通話料は無料です。センターを介するため、先生と直接電話番号をやり取りすることもありません。</p>
 </details>
 <details>
 <summary>無料特典は、どういう条件で使えますか？</summary>
 <p>新規登録で3,000円分のポイントが付与され、初回の鑑定はこのポイントから使われます。「10分無料」割引は、初めて鑑定する先生との鑑定が20分以上になったときに10分分が自動で割り引かれるもので、ポイントとの併用はできません（2回目以降の鑑定から対象です）。詳しくは公式サイトの案内をご確認ください。</p>
 </details>
 <details>
-<summary>支払い方法には何がありますか？</summary>
-<p>銀行振込、クレジットカード、コンビニ払い、キャリア決済、Amazon Pay、電子マネーなどが使えます。鑑定後に支払う「後払い」（鑑定後5日以内）と、ポイントを先に購入する「前払い」が選べます。</p>
-</details>
-<details>
-<summary>使いすぎてしまわないか心配です</summary>
-<p>「前払いコース」を選ぶと、所持ポイントが無くなった時点で通話が自動で終了するので、予算内で収められます。鑑定の途中で電話を切ることもでき、時間は1分単位で計算されます。</p>
-</details>
-<details>
-<summary>顔を見せずに相談できますか？</summary>
-<p>はい。鑑定は電話のみで行われ、対面ではありません。センターを介した折り返し電話の仕組みなので、先生と直接電話番号をやり取りすることもありません。</p>
-</details>
-<details>
 <summary>退会はできますか？</summary>
 <p>できます。受付（info@kizuna3.com）宛に「退会申請」と書いたメールを送るか、事務局へ電話で申請する方法が、公式の利用規約に案内されています。未払いの利用料金がある場合は、支払いが完了するまで退会手続きが完了しません。なお、登録しているだけで料金はかからないため、そのままにしておいても費用は発生しません。</p>
 </details>
+</section>
+<section>
+<h2 class="sec">電話占い「絆」の基本情報</h2>
+<table class="info">
+<tr><th>対応時間</th><td>24時間365日（待機中の占い師にいつでも相談できます）</td></tr>
+<tr><th>鑑定料</th><td>1分 165円（税込）〜330円（税込）※占い師ごとに設定</td></tr>
+<tr><th>通話料</th><td>無料（センターからの折り返し電話で鑑定します）</td></tr>
+<tr><th>支払い方法</th><td>銀行振込・クレジットカード・コンビニ払い・キャリア決済・Amazon Pay・電子マネーなど（後払い／前払いが選べます）</td></tr>
+<tr><th>運営会社</th><td>ビットアップ株式会社</td></tr>
+</table>
 </section>
 <section>
 <h2 class="sec">ご利用にあたって</h2>
